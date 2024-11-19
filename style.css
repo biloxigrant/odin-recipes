@@ -1,20 +1,111 @@
-body {
+
+*{
+    box-sizing: border-box;
+}
+
+body{
     background-color: #000000;
 }
 
 
-h1 {
+.title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background-color: #d54215;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    color:#ffffff; 
+  } 
+  a:hover { 
+    font-weight: bold;
+  } 
+  a:active { 
+    color:#ffffff; 
+  }
+
+.recipes{
     
-    color: #f1e4ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+         
+}
+
+
+.lasagna img{
+    background-color: #d54215;
+    
+    margin-right: auto;
+    margin-left: 25px;
+    margin-bottom: -10px;
+    width: 25%;
+    padding: 10px;
+ }
+
+ 
+
+.lasagna-caption{
+    background-color: #d54215;
+   
+    margin-right: auto;
+    margin-left: 25px;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+
+ }
+
+
+.steak img{
+    background-color: #d54215;
+   
+    margin-right: auto;
+    margin-left: 25px;
+    margin-bottom: -10px;
+    width: 25%;
+    padding: 10px;
+}
+
+.steak-caption{
+    background-color: #d54215;
+   
+    margin-right: auto;
+    margin-left: 25px;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
-.recipe{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    color: white;
+.tacos img{
+    background-color: #d54215;
+    
+    margin-right: auto;
+    margin-left: 25px;
+    margin-bottom: -10px;
+    width: 25%;
+    padding: 10px;
+}
+
+.tacos-caption{
+    background-color: #d54215;
+    display: block;
+    margin-right: auto;
+    margin-left: 25px;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 25px;
+    text-align: center;
     
 }
 
