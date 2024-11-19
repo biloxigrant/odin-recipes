@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #d3927e;
 }
 
 
@@ -12,100 +12,53 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-weight: bold;
-    color: #ffffff;
+    color: #d54215;
     text-align: center;
-    background-color: #d54215;
+    background-color: #ffffff;
     margin-bottom: 20px;
     margin-left: 25px;
+    padding: 20px;
 }
 
 a:link { 
     text-decoration: none; 
   } 
   a:visited { 
-    color:#ffffff; 
+    color:#000000; 
   } 
   a:hover { 
     font-weight: bold;
   } 
   a:active { 
-    color:#ffffff; 
+    color:#000000; 
   }
 
 .recipes{
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: white;
+    color: black;
          
 }
 
 
-.lasagna img{
-    background-color: #d54215;
-    
-    margin-right: auto;
-    margin-left: 25px;
-    margin-bottom: -10px;
+.lasagna, .steak, .tacos{
+    background-color: #ffffff;
     width: 25%;
-    padding: 10px;
+    box-shadow: 0 4px 8px 0;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
  }
 
- 
-
-.lasagna-caption{
-    background-color: #d54215;
-   
-    margin-right: auto;
-    margin-left: 25px;
-    width: 25%;
-    padding: 10px;
-    margin-bottom: 25px;
+ .lasagna-caption, .steak-caption, .tacos-caption{
     text-align: center;
-
+    padding: 10px 20px;
+    
  }
 
 
-.steak img{
-    background-color: #d54215;
-   
-    margin-right: auto;
-    margin-left: 25px;
-    margin-bottom: -10px;
-    width: 25%;
-    padding: 10px;
-}
 
-.steak-caption{
-    background-color: #d54215;
-   
-    margin-right: auto;
-    margin-left: 25px;
-    width: 25%;
-    padding: 10px;
-    margin-bottom: 25px;
-    text-align: center;
-}
 
-.tacos img{
-    background-color: #d54215;
-    
-    margin-right: auto;
-    margin-left: 25px;
-    margin-bottom: -10px;
-    width: 25%;
-    padding: 10px;
-}
 
-.tacos-caption{
-    background-color: #d54215;
-    display: block;
-    margin-right: auto;
-    margin-left: 25px;
-    width: 25%;
-    padding: 10px;
-    margin-bottom: 25px;
-    text-align: center;
-    
-}
 
