@@ -33,16 +33,22 @@ a:link {
     color:#000000; 
   }
 
-.recipes{
-    
+.recipes{    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     color: black;
-         
 }
 
+.recipes img{
+    width:100%;
+}
 
-.lasagna, .steak, .tacos{
+.recipes .caption{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.recipes .image-link{
     background-color: #ffffff;
     width: 25%;
     box-shadow: 0 4px 8px 0;
@@ -51,15 +57,6 @@ a:link {
 }
 
 
-.lasagna img, .steak img, .tacos img{
-    width:100%;
-}
-
-.lasagna-caption, .steak-caption, .tacos-caption{
-    text-align: center;
-    padding: 10px 20px;
-    
-}
 
 
 
