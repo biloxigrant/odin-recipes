@@ -1,68 +1,61 @@
 
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body{
-    background-color: #d3927e;
+  background-color: #d3927e;
 }
 
 
 .title{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    color: #d54215;
-    text-align: center;
-    background-color: #ffffff;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #d54215;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 a:link { 
-    text-decoration: none; 
-  } 
-  a:visited { 
-    color:#000000; 
-  } 
-  a:hover { 
-    font-weight: bold;
-  } 
-  a:active { 
-    color:#000000; 
-  }
+  text-decoration: none; 
+} 
+a:visited { 
+  color:#000000; 
+} 
+a:hover { 
+  font-weight: bold;
+} 
+a:active { 
+  color:#000000; 
+}
 
 .recipes{    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    color: black;
-    display:flex;
-    justify-content: space-evenly;
-    
-}
-
-.recipes img{
-    width:100%;
-}
-
-.recipes .caption{
-    text-align: center;
-    padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: black;
+  display:flex;
+  justify-content: space-evenly; 
+  
 }
 
 .recipes .card{
-    background-color: #ffffff;
-    width: 25%;
-    box-shadow: 0 4px 8px 0;
-    
+  background-color: #ffffff;
+  width: 25%;
+  box-shadow: 0 4px 8px 0;
+  
 }
 
+.recipes img{
+  width:100%;
+}
 
-
-
-
-
-
+.recipes .caption{
+  text-align: center;
+  padding: 10px 20px;
+}
 
