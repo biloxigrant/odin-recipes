@@ -39,14 +39,16 @@ a:active {
   font-size: 24px;
   color: black;
   display:flex;
+  flex-direction: row;
   justify-content: space-evenly; 
-  
+    
 }
 
 .recipes .card{
   background-color: #ffffff;
   width: 25%;
   box-shadow: 0 4px 8px 0;
+  flex: 0 1 auto;
   
 }
 
@@ -57,5 +59,7 @@ a:active {
 .recipes .caption{
   text-align: center;
   padding: 10px 20px;
+  
+  
 }
 
