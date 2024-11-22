@@ -40,16 +40,15 @@ a:active {
   color: black;
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly; 
-    
-}
+  justify-content: space-evenly;
+  
+  }
 
 .recipes .card{
   background-color: #ffffff;
-  width: 25%;
   box-shadow: 0 4px 8px 0;
-  flex: 0 1 auto;
-  
+  flex: 0 1 400px;
+  margin: 10px;  
 }
 
 .recipes img{
@@ -59,7 +58,6 @@ a:active {
 .recipes .caption{
   text-align: center;
   padding: 10px 20px;
-  
-  
+    
 }
 
